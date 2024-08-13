@@ -1,0 +1,5 @@
+* text=auto
+*.bat eol=crlf
+DragonFedEvent/Content/** filter=lfs diff=lfs merge=lfs -text
+DragonFedEvent/Plugins/** filter=lfs diff=lfs merge=lfs -text
+DragonFedEvent/Content/VprodProject/Maps/** filter=lfs diff=lfs merge=lfs -text
