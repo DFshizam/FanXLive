@@ -156,15 +156,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b08e5581837e4bbca486b61cdf2751bb"
 		},
 		{
-			"Name": "OpenXRViveTracker",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android"
-			]
-		},
-		{
 			"Name": "LiveLinkXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -173,11 +164,14 @@
 		},
 		{
 			"Name": "ViveOpenXR",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Android"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
